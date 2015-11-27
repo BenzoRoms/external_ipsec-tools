@@ -85,6 +85,8 @@ LOCAL_CFLAGS += -Wno-unused-variable \
 # to be ignored until they are fixed from upstream.
 LOCAL_CLANG_CFLAGS += -Wno-knr-promoted-parameter
 
+LOCAL_CFLAGS += -fno-strict-aliasing
+
 LOCAL_MODULE := racoon
 
 include $(BUILD_EXECUTABLE)
